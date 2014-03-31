@@ -1,8 +1,6 @@
 ---
-driver_plugin: vagrant
-driver_config:
-  require_chef_omnibus: true
-  use_vagrant_berkshelf_plugin: true
+driver:
+  name: vagrant
 
 platforms:
 - name: centos-6.4
